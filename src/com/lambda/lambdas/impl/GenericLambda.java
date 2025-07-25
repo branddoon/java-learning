@@ -1,6 +1,7 @@
-package com.lambda.lambdas;
+package com.lambda.lambdas.impl;
 
 import com.lambda.entity.Product;
+import com.lambda.lambdas.Printer;
 
 public class GenericLambda {
 

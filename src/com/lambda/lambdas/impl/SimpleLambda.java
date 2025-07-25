@@ -1,4 +1,6 @@
-package com.lambda.lambdas;
+package com.lambda.lambdas.impl;
+
+import com.lambda.lambdas.Math;
 
 public class SimpleLambda {
 
