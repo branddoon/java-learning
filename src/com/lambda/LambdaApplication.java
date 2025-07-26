@@ -1,5 +1,6 @@
 package com.lambda;
 
+import com.lambda.lambdas.SupplierApp;
 import com.lambda.lambdas.impl.*;
 
 public class LambdaApplication {
@@ -26,6 +27,29 @@ public class LambdaApplication {
         System.out.println("----- 7. Arbitrary reference ------");
         ArbitraryMethodReference arbitraryMethodReference = new ArbitraryMethodReference();
         arbitraryMethodReference.execute();
-
+        System.out.println("----- 8. Function ------");
+        FunctionApp functionApp = new FunctionApp();
+        functionApp.execute();
+        System.out.println("----- 9. BiFunction ------");
+        BiFunctionApp biFunctionApp = new BiFunctionApp();
+        biFunctionApp.execute();
+        System.out.println("----- 10. Predicate ------");
+        PredicateApp predicateApp = new PredicateApp();
+        predicateApp.execute();
+        System.out.println("----- 11. Bipredicate ------");
+        BiPredicateApp biPredicateApp = new BiPredicateApp();
+        biPredicateApp.execute();
+        System.out.println("----- 12. Consumer ------");
+        ConsumerApp consumerApp = new ConsumerApp();
+        consumerApp.execute();
+        System.out.println("----- 13. Supplier ------");
+        SupplierApp supplierApp = new SupplierApp();
+        supplierApp.execute();
+        System.out.println("----- 14. Unary operator ------");
+        UnaryOperatorApp unaryOperatorApp = new UnaryOperatorApp();
+        unaryOperatorApp.execute();
+        System.out.println("----- 15. Binary operator ------");
+        BinaryOperatorApp binaryOperatorApp = new BinaryOperatorApp();
+        binaryOperatorApp.execute();
     }
 }
