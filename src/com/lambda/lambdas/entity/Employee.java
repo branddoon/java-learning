@@ -1,4 +1,4 @@
-package com.lambda.entity;
+package com.lambda.lambdas.entity;
 
 public class Employee {
 

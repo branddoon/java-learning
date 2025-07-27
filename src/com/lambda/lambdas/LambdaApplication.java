@@ -1,6 +1,5 @@
-package com.lambda;
+package com.lambda.lambdas;
 
-import com.lambda.lambdas.SupplierApp;
 import com.lambda.lambdas.impl.*;
 
 public class LambdaApplication {

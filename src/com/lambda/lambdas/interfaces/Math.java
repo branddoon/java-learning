@@ -1,4 +1,4 @@
-package com.lambda.lambdas;
+package com.lambda.lambdas.interfaces;
 
 @FunctionalInterface
 public interface Math {

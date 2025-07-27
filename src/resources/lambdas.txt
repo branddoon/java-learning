@@ -1,0 +1,4 @@
+En el ámbito de la programación, una expresión lambda, también denominada función lambda, función literal o función anónima,
+es una subrutina definida que no está enlazada a un identificador.
+Las expresiones lambda a menudo son argumentos que se pasan a funciones de orden superior,
+o se usan para construir el resultado de una función de orden superior que necesita devolver una función

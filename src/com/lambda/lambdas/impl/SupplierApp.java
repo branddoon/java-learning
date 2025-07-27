@@ -1,4 +1,4 @@
-package com.lambda.lambdas;
+package com.lambda.lambdas.impl;
 
 import java.util.Random;
 import java.util.function.Supplier;
