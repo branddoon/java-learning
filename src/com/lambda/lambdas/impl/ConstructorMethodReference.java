@@ -1,5 +1,7 @@
 package com.lambda.lambdas.impl;
 
+import lombok.ToString;
+
 import java.util.Random;
 import java.util.UUID;
 import java.util.function.Supplier;
@@ -14,22 +16,15 @@ public class ConstructorMethodReference {
     }
 }
 
+@ToString
 class MyObject {
 
-    private String string;
+    private final String string;
 
-    private Integer num;
+    private final Integer num;
 
     public MyObject() {
         this.string = UUID.randomUUID().toString();
         this.num = new Random().nextInt(1000);
-    }
-
-    @Override
-    public String toString() {
-        return "MyObject{" +
-                "string='" + string + '\'' +
-                ", num=" + num +
-                '}';
     }
 }

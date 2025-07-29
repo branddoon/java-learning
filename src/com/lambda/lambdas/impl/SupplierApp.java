@@ -1,5 +1,8 @@
 package com.lambda.lambdas.impl;
 
+import lombok.AllArgsConstructor;
+import lombok.ToString;
+
 import java.util.Random;
 import java.util.function.Supplier;
 
@@ -16,18 +19,9 @@ public class SupplierApp {
     }
 }
 
+@AllArgsConstructor
+@ToString
 class MyProduct {
     Integer price;
     String name;
-    public MyProduct(Integer price, String name) {
-        this.price = price;
-        this.name = name;
-    }
-    @Override
-    public String toString() {
-        return "MyProduct{" +
-                "price=" + price +
-                ", name='" + name + '\'' +
-                '}';
-    }
 }

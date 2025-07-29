@@ -1,5 +1,8 @@
 package com.lambda.lambdas.impl;
 
+import lombok.Getter;
+import lombok.ToString;
+
 import java.io.*;
 import java.util.Arrays;
 import java.util.function.Function;
@@ -40,6 +43,9 @@ public class FunctionApp {
         System.out.println("Deserializer: " + catDeserialized);
     }
 }
+
+@ToString
+@Getter
 class Cat implements Serializable {
     String name;
     Integer age;
@@ -47,17 +53,5 @@ class Cat implements Serializable {
     public Cat(String name, Integer age) {
         this.name = name;
         this.age = age;
-    }
-
-    public Integer getAge() {
-        return age;
-    }
-
-    @Override
-    public String toString() {
-        return "Cat{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                '}';
     }
 }
