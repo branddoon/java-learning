@@ -1,4 +1,8 @@
-package com.annotation;
+package com.annotation.impl;
+
+import com.annotation.interfaces.AnimalRequired;
+import com.annotation.interfaces.FieldRequired;
+import com.annotation.interfaces.RunInmmediately;
 
 @AnimalRequired
 public class Dog {

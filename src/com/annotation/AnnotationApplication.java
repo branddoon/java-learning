@@ -1,5 +1,10 @@
 package com.annotation;
 
+import com.annotation.impl.Dog;
+import com.annotation.interfaces.AnimalRequired;
+import com.annotation.interfaces.FieldRequired;
+import com.annotation.interfaces.RunInmmediately;
+
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
