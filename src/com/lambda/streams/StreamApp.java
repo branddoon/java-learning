@@ -4,6 +4,7 @@ import com.lambda.streams.impl.ConstructorStream;
 import com.lambda.streams.impl.StreamFinalOperators;
 import com.lambda.streams.impl.StreamIntermediateOperator;
 import com.lambda.streams.util.Database;
+import com.lambda.streams.util.ExerciseLambda;
 
 public class StreamApp {
 
@@ -54,5 +55,11 @@ public class StreamApp {
         streamIntermediateOperator.executeTakeWhile(Database.videogames.stream());
         System.out.println("11. Drop while");
         streamIntermediateOperator.executeDropWhile(Database.videogames.stream());
+        System.out.println("------------------------------------------------");
+        System.out.println("Exercise 1");
+        ExerciseLambda exerciseLambda = new ExerciseLambda();
+        exerciseLambda.executeExercise1(Database.videogames.stream());
+        System.out.println("Exercise 2");
+        exerciseLambda.executeExercise2(Database.videogames.stream());
     }
 }
