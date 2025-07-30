@@ -61,5 +61,11 @@ public class StreamApp {
         exerciseLambda.executeExercise1(Database.videogames.stream());
         System.out.println("Exercise 2");
         exerciseLambda.executeExercise2(Database.videogames.stream());
+        System.out.println("Exercise 3");
+        exerciseLambda.executeExercise3(Database.videogames.stream());
+        System.out.println("Exercise 4");
+        exerciseLambda.executeExercise4(Database.videogames.stream());
+        System.out.println("Exercise 5");
+        exerciseLambda.executeExercise5(Database.videogames.stream());
     }
 }
