@@ -7,8 +7,8 @@ import lombok.ToString;
 @Builder
 @ToString
 @Getter
-public class BasicVideogame {
+public class BasicCar {
     private String name;
     private Double price;
-    private Console console;
+    private Brand brand;
 }

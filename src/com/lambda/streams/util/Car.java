@@ -9,10 +9,10 @@ import java.util.List;
 
 @Data
 @Builder
-public class Videogame {
+public class Car {
     private String name;
     private Double price;
-    private Console console;
+    private Brand brand;
     private List<Review> reviews;
     private String officialWebsite;
     private Boolean isDiscount;

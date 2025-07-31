@@ -8,6 +8,7 @@ import lombok.Data;
 public class Review {
 
     private String comment;
+
     private Integer score;
 
 }
