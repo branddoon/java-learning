@@ -29,5 +29,9 @@ public class RealApp {
         exerciseOptional.executeIsOdd(2);
         System.out.println("2. Is prime");
         exerciseOptional.executeIsPrime(9);
+        System.out.println("-----------------------");
+        System.out.println("1. Validator");
+        ValidatorCar validatorCar = new ValidatorCar();
+        validatorCar.execute();
     }
 }
