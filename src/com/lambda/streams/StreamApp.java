@@ -3,7 +3,7 @@ package com.lambda.streams;
 import com.lambda.streams.impl.ConstructorStream;
 import com.lambda.streams.impl.StreamFinalOperator;
 import com.lambda.streams.impl.StreamIntermediateOperator;
-import com.lambda.streams.util.Database;
+import com.lambda.util.Database;
 import com.lambda.streams.impl.ExerciseLambda;
 
 public class StreamApp {

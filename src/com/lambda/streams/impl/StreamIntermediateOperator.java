@@ -1,7 +1,7 @@
 package com.lambda.streams.impl;
 
-import com.lambda.streams.util.BasicCar;
-import com.lambda.streams.util.Car;
+import com.lambda.util.BasicCar;
+import com.lambda.util.Car;
 
 import java.util.Comparator;
 import java.util.List;

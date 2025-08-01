@@ -1,7 +1,7 @@
 package com.lambda.streams.impl;
 
-import com.lambda.streams.util.Database;
-import com.lambda.streams.util.Car;
+import com.lambda.util.Database;
+import com.lambda.util.Car;
 
 import java.util.stream.Stream;
 

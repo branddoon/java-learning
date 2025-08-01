@@ -1,9 +1,6 @@
 package com.lambda.real;
 
-import com.lambda.real.impl.ComparatorLambdas;
-import com.lambda.real.impl.ConcurrenceLambdas;
-import com.lambda.real.impl.ReadFile;
-import com.lambda.real.impl.StrategyLambdas;
+import com.lambda.real.impl.*;
 
 import java.util.concurrent.ExecutionException;
 
@@ -23,8 +20,14 @@ public class RealApp {
         System.out.println("3. Discount example");
         StrategyLambdas strategyLambdas = new StrategyLambdas();
         strategyLambdas.execute();
-        System.out.println("3. Comparator example");
+        System.out.println("4. Comparator example");
         ComparatorLambdas comparatorLambdas = new ComparatorLambdas();
         comparatorLambdas.execute();
+        System.out.println("-----------------------");
+        System.out.println("1. Odd number");
+        CodeChallenge exerciseOptional = new CodeChallenge();
+        exerciseOptional.executeIsOdd(2);
+        System.out.println("2. Is prime");
+        exerciseOptional.executeIsPrime(9);
     }
 }

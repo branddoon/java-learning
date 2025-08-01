@@ -1,4 +1,4 @@
-package com.lambda.streams.util;
+package com.lambda.util;
 
 import lombok.Builder;
 import lombok.Getter;

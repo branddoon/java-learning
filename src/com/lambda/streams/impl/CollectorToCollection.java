@@ -1,6 +1,6 @@
 package com.lambda.streams.impl;
 
-import com.lambda.streams.util.Car;
+import com.lambda.util.Car;
 
 import java.util.stream.Collectors;
 import java.util.stream.Stream;

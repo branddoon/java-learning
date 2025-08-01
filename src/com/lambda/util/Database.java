@@ -1,4 +1,4 @@
-package com.lambda.streams.util;
+package com.lambda.util;
 
 import java.util.Collections;
 import java.util.List;

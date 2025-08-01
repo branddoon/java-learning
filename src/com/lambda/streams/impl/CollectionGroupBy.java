@@ -1,7 +1,7 @@
 package com.lambda.streams.impl;
 
-import com.lambda.streams.util.Brand;
-import com.lambda.streams.util.Car;
+import com.lambda.util.Brand;
+import com.lambda.util.Car;
 
 import java.util.List;
 import java.util.Map;

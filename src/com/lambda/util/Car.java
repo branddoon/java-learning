@@ -1,4 +1,4 @@
-package com.lambda.streams.util;
+package com.lambda.util;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
